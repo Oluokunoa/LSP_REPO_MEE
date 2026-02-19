@@ -1,6 +1,5 @@
 # Reflection — Assignment 3 (A3): OO Redesign of ETL Pipeline
 
-## Overview
 Assignment 2 implemented the ETL pipeline as a single procedural program with direct file I/O, parsing, transformation logic, output writing, and summary printing in one class. Assignment 3 preserves the exact same observable behavior (inputs, outputs, transformation order, row skipping rules, rounding, and error handling), but decomposes the solution into multiple classes with clearer responsibilities.
 
 ## What is different about the design?
